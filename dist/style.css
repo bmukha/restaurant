@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body {
+  background-color: grey;
+  width: 90vw;
+  height: 90vh;
+}
+
+h1 {
+  margin: 0 auto;
+  display: block;
+}
+
+#departments {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+
+#departments > div {
+  margin: 0;
+  text-align: center;
+  justify-content: baseline;
+  background-color: red;
+  height: 2rem;
+  border: 1px solid black;
+}
+
+#departments > div:hover {
+  pointer-events: auto;
+  cursor: pointer;
+  background-color: green;
+  transform: scale(1.2);
+}
