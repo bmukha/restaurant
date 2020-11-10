@@ -12,6 +12,7 @@ body {
 h1 {
   margin: 0 auto;
   display: block;
+  text-align: center;
 }
 
 #departments {
@@ -35,4 +36,10 @@ h1 {
   cursor: pointer;
   background-color: green;
   transform: scale(1.2);
+}
+
+#content {
+  width: 100%;
+  display: block;
+  text-align: center;
 }
